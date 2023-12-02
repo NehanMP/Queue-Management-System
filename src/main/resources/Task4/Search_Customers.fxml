@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Task4.GUIController">
+    <Label layoutX="175.0" layoutY="29.0" text="Search Customers">
+        <font>
+          <Font name="System Bold" size="30.0" />
+        </font>
+    </Label>
+    <RadioButton layoutX="96.0" layoutY="99.0" mnemonicParsing="false" text="Queue 1" />
+    <RadioButton layoutX="183.0" layoutY="99.0" mnemonicParsing="false" text="Queue 2" />
+    <RadioButton layoutX="268.0" layoutY="99.0" mnemonicParsing="false" text="Queue 3" />
+    <RadioButton layoutX="358.0" layoutY="99.0" mnemonicParsing="false" text="Waiting Queue" />
+    <Label layoutX="31.0" layoutY="97.0" text="Queue:">
+        <font>
+          <Font size="14.0" />
+        </font>
+    </Label>
+    <Label layoutX="31.0" layoutY="144.0" text="Queue  Index:">
+        <font>
+          <Font size="14.0" />
+        </font>
+    </Label>
+    <TextField layoutX="129.0" layoutY="142.0" />
+    <Button layoutX="466.0" layoutY="155.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="98.0" text="Search" />
+    <Button fx:id="goBack" layoutX="477.0" layoutY="348.0" mnemonicParsing="false" onAction="#backOption" prefHeight="25.0" prefWidth="76.0" text="Back" />
+    <Label layoutX="62.0" layoutY="210.0" text="First Name:" />
+    <Label layoutX="62.0" layoutY="250.0" text="Last Name:" />
+    <Label layoutX="31.0" layoutY="290.0" text="Burgers Ordered:" />
+
+</AnchorPane>
