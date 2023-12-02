@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="472.0" prefWidth="640.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Task4.GUIController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Label text="Foodies Favorite Food Center" underline="true">
+      <font>
+         <Font name="Times New Roman" size="24.0" />
+      </font></Label>
+    <Button fx:id="viewCustomers" onAction="#viewCustomerQueues" prefHeight="50.0" prefWidth="220.0" text="View Customers">
+      <font>
+         <Font name="System Bold" size="14.0" />
+      </font></Button>
+    <Button fx:id="waitingQueue" onAction="#viewWaitingQueue" prefHeight="50.0" prefWidth="220.0" text="View Waiting Queue">
+        <font>
+            <Font name="System Bold" size="14.0" />
+        </font></Button>
+    <Button fx:id="searchCustomers" onAction="#searchCustomerView" prefHeight="50.0" prefWidth="220.0" text="Search Customers">
+        <font>
+            <Font name="System Bold" size="14.0" />
+        </font></Button>
+    <Label />
+</VBox>
